@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+body {
+  font-family: "Rubik Bubbles", system-ui;
+}
+
+@font-face {
+  font-family: "Rubik Bubbles", system-ui;
+  src: url("./assets/Rubik_Bubbles/RubikBubbles-Regular.ttf");
+}
